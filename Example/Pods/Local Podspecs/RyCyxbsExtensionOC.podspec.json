@@ -1,0 +1,23 @@
+{
+  "name": "RyCyxbsExtensionOC",
+  "version": "0.1.0",
+  "summary": "RyCyxbsExtensionOC 基于掌邮的Extension",
+  "description": "这里存放的是掌邮的Extension以及一些独立的，不基于第三方库（但可以偷第三方库）的。",
+  "homepage": "https://github.com/RisingSSR/RyCyxbsExtensionOC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "RisingSSR": "2769119954@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/RisingSSR/RyCyxbsExtensionOC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "RyCyxbsExtensionOC/Classes/**/*",
+  "public_header_files": "RyCyxbsExtensionOC/Classes/**/*.h"
+}

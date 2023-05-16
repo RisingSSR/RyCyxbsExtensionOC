@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RyCyxbsExtensionOC'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RyCyxbsExtensionOC.'
+  s.summary          = 'RyCyxbsExtensionOC 基于掌邮的Extension'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+这里存放的是掌邮的Extension以及一些独立的，不基于第三方库（但可以偷第三方库）的。
                        DESC
 
   s.homepage         = 'https://github.com/RisingSSR/RyCyxbsExtensionOC'
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/RisingSSR/RyCyxbsExtensionOC.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'RyCyxbsExtensionOC/Classes/**/*'
   
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'RyCyxbsExtensionOC' => ['RyCyxbsExtensionOC/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'RyCyxbsExtensionOC/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

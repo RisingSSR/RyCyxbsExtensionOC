@@ -1,0 +1,16 @@
+PODS:
+  - RyCyxbsExtensionOC (0.1.0)
+
+DEPENDENCIES:
+  - RyCyxbsExtensionOC (from `../`)
+
+EXTERNAL SOURCES:
+  RyCyxbsExtensionOC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RyCyxbsExtensionOC: d85ab25acc869e5272a13d60692217b0fd0014ae
+
+PODFILE CHECKSUM: c3de3b25978a884db302de6d8201ae07c7a8412c
+
+COCOAPODS: 1.12.1
