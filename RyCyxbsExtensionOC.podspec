@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RyCyxbsExtensionOC'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'RyCyxbsExtensionOC 基于掌邮的Extension'
 
 # This description is used to generate tags and improve search results.
